@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>   
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins&family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="word-container">
+        <div class="content">
+            <h2>Temperature Converter</h2>
+            <div class="temp_unit">
+                <p>Celsius</p>
+                <p>Fahrenheit</p>
+            </div>
+
+            <div class="temp_input">
+                <div class="sub_box">
+                    <input type="Number" class="input_box" id="text_cel" oninput="celTofar()" >
+                    <p><span>&#176;</span>C</p>
+                </div>
+
+                <div class="sub_box">
+                    <input type="Number" class="input_box"  id="text_far">
+                    <p><span>&#176;</span>F</p>
+                </div>
+            </div>
+
+            <div class="temp_unit">
+                <p>Celsius</p>
+                <p>Kelvin</p>
+            </div>
+
+            <div class="temp_input">
+                <div class="sub_box">
+                    <input type="Number" class="input_box" id="text_cel2" oninput="celToKel()">
+                    <p><span>&#176;</span>C</p>
+                </div>
+
+
+                <div class="sub_box">
+                    <input type="Number" class="input_box"  id="text_kel">
+                    <p><span>&#176;</span>K</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
