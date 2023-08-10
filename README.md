@@ -34,7 +34,7 @@ I implemented various functionalities to ensure accurate and efficient conversio
 
 ## Tempature Converter
 
-![App Screenshot](https://github.com/devgeek2700/BharatIternship-Projects/blob/master/TempatureConverter/temp_output.png?raw=true)
+![App Screenshot](https://github.com/devgeek2700/Tempature-Converter-using-Js/blob/master/temp_output.png?raw=true)
 
 
 ## 🛠 Skills
